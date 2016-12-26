@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="5px"
+    android:paddingBottom="5px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <ImageView android:id="@+id/ePhoto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ridingtest" />
+    <LinearLayout android:orientation="vertical"
+        android:paddingLeft="10px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView android:id="@+id/eName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp" />
+        <TextView android:id="@+id/ePhoneNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView android:id="@+id/eNull"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

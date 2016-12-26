@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Blue">#2980b9</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="MenuBlack">#252932</color>
+    <color name="Gray">#c9c9c9</color>
+    <color name="GrayLight">#eeeeee</color>
+    <color name="GrayHot">#272727</color>
+
+
+
+    <color name="green">#4caf50</color>
+    <color name="route_green">#225f6a</color>
+    <color name="route_green2">#20525b</color>
+
+
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="menu_text_color">#424242</color>
+    <color name="fer_white">#f5f5f5</color>
+    <color name="nav_color">#3f51b5</color>
+
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#f48fb1</color>
+    <color name="main_pink">#ff4081</color>
+    <color name="orange">#f6b283</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="splash">#f3f1bc</color>
+
+
+
+
+
+
+    <color name="button_disabled">#dbe1e7</color>
+
+    <color name="line_tooltip">#ffffff</color>
+
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#009688</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="button_pressed">#dbe1e7</color>
+    <color name="button_default">#3c5e62</color>
+
+    <color name="selected">#009688</color>
+    <color name="unselected">#CFD8DC</color>
+    <color name="stacked">#ffa5adb1</color>
+
+    <color name="gray">#ff363436</color>
+
+
+
+
+</resources>

@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    repositories {
+        mavenCentral()
+    }
+    defaultConfig {
+        applicationId "com.example.namsoo.s_riding_ui"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+
+
+
+    signingConfigs {
+        release {
+            storeFile file("s_riding.jks")
+            storePassword "985674"
+            keyAlias "s_riding"
+            keyPassword "985674"
+        }
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    //프로그레스바
+    compile 'com.pnikosis:materialish-progress:1.7'
+    //FloatingActionButton
+    compile 'com.getbase:floatingactionbutton:1.10.0'
+    //페이스북
+    compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+    //구글맵
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.diogobernardino:williamchart:2.0.1'
+    //다이얼로그
+    compile 'me.drakeet.materialdialog:library:1.2.2'
+
+
+}

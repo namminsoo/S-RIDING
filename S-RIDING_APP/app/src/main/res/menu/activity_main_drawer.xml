@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_sriding"
+            android:checkable="true"
+            android:icon="@drawable/pin56_icon2"
+            android:title="S-RIDING" />
+
+    </group>
+    <!--
+    <item android:id="@+id/nav_setting" android:icon="@drawable/levels1_icon"
+        android:title="설정" />
+        -->
+    <group>
+        <item
+            android:id="@+id/nav_route"
+            android:checkable="true"
+            android:icon="@drawable/heart95_icon"
+            android:title="주행정보"
+            />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_bodyinfo"
+            android:checkable="true"
+            android:icon="@drawable/man19_icon"
+            android:title="신체정보" />
+    </group>
+    <group>
+
+
+        <item
+            android:id="@+id/nav_record"
+            android:checkable="true"
+            android:icon="@drawable/business8_icon"
+            android:title="주행기록" />
+
+    </group>
+
+
+    <!--
+
+
+
+        <item android:title="커뮤니케이션">
+            <menu>
+                <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                    android:title="공유하기" />
+                <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                    android:title="보내기" />
+            </menu>
+        </item>
+    -->
+</menu>
